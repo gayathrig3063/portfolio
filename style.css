@@ -1,0 +1,171 @@
+@font-face {
+    font-family: sev;
+    src: url(./fonts/SEVESBRG.TTF);
+}
+
+@font-face {
+    font-family: bake;
+    src: url(./fonts/Bakemono-Stereo-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: vig;
+    src: url(./fonts/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf);
+}
+
+@font-face {
+    font-family: cool;
+    src: url(./fonts/Coolvetica\ Rg.otf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(./fonts/Mont-HeavyDEMO.otf);
+}
+
+body {
+
+    margin: 0;
+}
+
+.heading {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.kg {
+    font-family: sev;
+    font-size: 70px;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.ac a {
+    font-family: bake;
+    font-size: 25px;
+    padding-left: 20px;
+    color: darkmagenta;
+}
+
+.ac:hover {
+    color: rgb(213, 133, 213);
+
+}
+
+h1 {
+    color: darkmagenta;
+    font-size: 50px;
+    font-family: vig;
+
+}
+
+.middle {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.para {
+    font-size: 20px;
+    text-align: justify;
+    /* font-family: vig; */
+    padding-right: 35px;
+    margin-top: 30px;
+    font-family: mont;
+    /* color: rgb(120, 113, 113); */
+
+}
+
+.img {
+    width: 300px;
+    padding-left: 35px;
+    padding-right: 40px;
+}
+
+button {
+    all: unset;
+    background-color: darkmagenta;
+    color: white;
+    height: 60px;
+    width: 160px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+i {
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgb(213, 133, 213);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover i {
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.certificate .py img {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.py img:hover {
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.pycer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate .pycer img {
+    height: 500px;
+    border-radius: none;
+    border: 4px solid black;
+}
+
+.certificate .name {
+    font-family: vig;
+    font-size: 30px;
+    text-align: justify;
+}
+@media (max-width:500px) {
+    .ac{
+        display: none;
+    }
+}
