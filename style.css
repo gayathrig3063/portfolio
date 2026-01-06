@@ -33,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 
 .kg {
@@ -41,6 +41,7 @@ body {
     font-size: 70px;
     color: darkmagenta;
     cursor: pointer;
+    line-height: 0%;
 }
 
 .ac a {
@@ -57,7 +58,7 @@ body {
 
 h1 {
     color: darkmagenta;
-    font-size: 50px;
+    font-size: 30px;
     font-family: vig;
 
 }
@@ -134,12 +135,12 @@ button:hover i {
 }
 
 .certificate .py img {
-    height: 400px;
+    /* max-height: 400px; */
     width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 10vw;
 }
 
 .py img:hover {
@@ -154,7 +155,7 @@ button:hover i {
 }
 
 .certificate .pycer img {
-    height: 500px;
+    /* height: 500px; */
     border-radius: none;
     border: 4px solid black;
 }
@@ -164,8 +165,83 @@ button:hover i {
     font-size: 30px;
     text-align: justify;
 }
+.mob-view{
+    display: none;
+}
 @media (max-width:500px) {
     .ac{
         display: none;
     }
+    .mob-view{
+        display: block;
+        
+    }
+
+    .certificate .py img{
+        width: 90vw;
+    }
+    .certificate .pycer img{
+        width: 90vw;
+
+    }
+    .mob-view  .menu .mob-icon{
+       font-size: 30px;
+       display: flex;
+       align-items: end;
+       justify-content: end;
+       position:relative;
+    }
+    body{
+         margin: 0;
+    }
+    .kg{
+        font-size: 50px;
+    }
+    .para{
+        font-size: 13px;
+        /* padding : 70px; */
+    }
+    .middle{
+        padding-left:30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mob-view{
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        box-shadow: 10px 5px 8px #00000080;
+        /* border-radius: 20px; */
+        align-items: end;
+        position: absolute;
+        right: 10px;
+        padding: 12px;
+        /* border: 3px solid gray; */
+        background-color: white
+    }
+    
+    #mob-view a{
+        margin: 10px 0px;
+        display: block;
+        text-align: end;
+        font-family: mont;
+        font-size: 18px;
+        font-weight: 50px;
+        color:  rgb(213, 133, 213);
+        
+    }
+    .mob-view a{
+        all: unset;
+    }
+    .heading{
+        background-color: rgb(213, 133, 213);
+    }
+     .certificate .name{
+        font-size: 20px;
+    }
+    
+   
 }

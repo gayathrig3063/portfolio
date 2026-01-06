@@ -46,5 +46,13 @@ const btn=document.getElementById("btn");
             top: document.body.scrollHeight,
             behavior: 'smooth'
         }
+        
         )
    }
+
+const MobView = document.getElementById("mob-view")
+
+
+function showMenu() {
+    MobView.style.display = MobView.style.display === "none" ? 'block' : 'none'
+}
