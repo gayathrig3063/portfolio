@@ -165,7 +165,7 @@ button:hover i {
     font-size: 30px;
     text-align: justify;
 }
-.mob-view{
+.mob-view {
     display: none;
 }
 @media (max-width:500px) {
@@ -197,9 +197,15 @@ button:hover i {
     .kg{
         font-size: 50px;
     }
+    .hparent{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
     .para{
         font-size: 13px;
         /* padding : 70px; */
+        margin-top: 0;
     }
     .middle{
         padding-left:30px;
@@ -207,6 +213,12 @@ button:hover i {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        padding: 0px 15px;
+    }
+    
+    .hparent{
+       margin: 0;
+
     }
 
     #mob-view{
@@ -241,6 +253,12 @@ button:hover i {
     }
      .certificate .name{
         font-size: 20px;
+    }
+    .middle{
+        margin-top: 0;
+    }
+    h1 span {
+        display: block;
     }
     
    
