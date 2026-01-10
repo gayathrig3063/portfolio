@@ -51,6 +51,7 @@ const btn=document.getElementById("btn");
    }
 
 const MobView = document.getElementById("mob-view")
+ MobView.style.display ="none"
 
 
 function showMenu() {
