@@ -168,6 +168,69 @@ button:hover i {
 .mob-view {
     display: none;
 }
+/* #play ground page */
+
+.ply-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    padding-bottom: 220px;
+}
+
+.ply-h1{
+     color: darkmagenta;
+    font-size: 65px;
+    font-family: mont;
+    line-height: 20px;
+}
+.ply-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0; 
+    font-size: 20px;
+    font-family: mont;
+
+}
+.ply-projects{
+    font-size: 60px;
+    font-family:vig;
+    color: rgb(213, 133, 213);
+ 
+}
+.ply-pro-des{
+    font-size: 19px;
+    font-family: mont;
+    color: gray;
+    text-align: justify;
+    padding: 11px 0px;
+    
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    background-color:rgba(202, 222, 222, 0.625);
+    padding: 0px 200px;
+}
+.ply-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ply-image > img{
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+
+
+
 @media (max-width:500px) {
     .ac{
         display: none;
