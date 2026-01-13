@@ -166,16 +166,18 @@ button:hover i {
     font-size: 30px;
     text-align: justify;
 }
+
 .mob-view {
     display: none;
 }
+
 /* ---------------------------------------------------------------------------------------- */
 /* #play ground page */
 /* ---------------------------------------------------------------------------------------- */
 
 
-.ply-title{
-    display:flex;
+.ply-title {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -183,114 +185,147 @@ button:hover i {
     padding-bottom: 220px;
 }
 
-.ply-h1{
-     color: darkmagenta;
+.ply-h1 {
+    color: darkmagenta;
     font-size: 65px;
+    margin: 0 auto;
     font-family: mont;
     line-height: 20px;
+    overflow: hidden;
+    padding: 20px 0px;
+    animation: typing 2s steps(240, end);
+    white-space: nowrap;
 }
-.ply-para{
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 81%
+    }
+}
+
+.ply-para {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0; 
+    margin-top: 0;
     font-size: 20px;
     font-family: mont;
+     overflow: hidden;
+    padding: 20px 0px;
+    animation: typing 2s steps(240, end);
+    white-space: nowrap;
 
 }
-.ply-projects{
+
+.ply-projects {
     font-size: 60px;
-    font-family:vig;
+    font-family: vig;
     color: rgb(213, 133, 213);
- 
+
 }
-.ply-pro-des{
+
+.ply-pro-des {
     font-size: 19px;
     font-family: mont;
     color: gray;
     text-align: justify;
     padding: 11px 0px;
-    
+
 }
-.project1{
+
+.project1 {
     display: flex;
     flex-direction: column;
-    background-color:rgba(202, 222, 222, 0.625);
+    background-color: rgba(202, 222, 222, 0.625);
     padding: 0px 200px;
 }
-.ply-image{
+
+.ply-image {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
 }
 
-.ply-image > img{
+.ply-image>img {
     border-radius: 20px;
     border: 2px solid black;
 
 }
 
 /* ---------------------------------------------------------------------------------------- */
- /* MOBILEVIEW */
+/* MOBILEVIEW */
 /* ---------------------------------------------------------------------------------------- */
 
 @media (max-width:500px) {
-    .ac{
+    .ac {
         display: none;
     }
-    .mob-view{
+
+    .mob-view {
         display: block;
-        
-    }
-
-    .certificate .py img{
-        width: 90vw;
-    }
-    .certificate .pycer img{
-        width: 90vw;
 
     }
-    .mob-view  .menu .mob-icon{
-       font-size: 30px;
-       display: flex;
-       align-items: end;
-       justify-content: end;
-       position:relative;
+
+    .certificate .py img {
+        width: 90vw;
     }
-    body{
-         margin: 0;
+
+    .certificate .pycer img {
+        width: 90vw;
+
     }
-    .kg{
+
+    .mob-view .menu .mob-icon {
+        font-size: 30px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        position: relative;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .kg {
         font-size: 50px;
     }
-    .hparent{
+
+    .hparent {
 
         display: flex;
         flex-wrap: wrap;
     }
-    .para{
+
+    .para {
         font-size: 13px;
         margin-top: 0;
     }
-    .middle{
-        padding-left:30px;
+
+    .middle {
+        padding-left: 30px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         padding: 0px 15px;
     }
-    
-    .hparent{
-       margin: 0;
+
+    .hparent {
+        margin: 0;
 
     }
 
-    #mob-view{
+    #mob-view {
         display: flex;
         flex-direction: column;
-        background-color:white;
+        background-color: white;
         box-shadow: 10px 5px 8px #00000080;
         align-items: end;
         position: absolute;
@@ -298,32 +333,37 @@ button:hover i {
         padding: 12px;
         background-color: white
     }
-    
-    #mob-view a{
+
+    #mob-view a {
         margin: 10px 0px;
         display: block;
         text-align: end;
         font-family: mont;
         font-size: 18px;
         font-weight: 50px;
-        color:  rgb(213, 133, 213);
-        
+        color: rgb(213, 133, 213);
+
     }
-    .mob-view a{
+
+    .mob-view a {
         all: unset;
     }
-    .heading{
+
+    .heading {
         background-color: rgb(213, 133, 213);
     }
-     .certificate .name{
+
+    .certificate .name {
         font-size: 20px;
     }
-    .middle{
+
+    .middle {
         margin-top: 0;
     }
+
     h1 span {
         display: block;
     }
-    
-   
+
+
 }
