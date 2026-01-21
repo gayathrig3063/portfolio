@@ -35,13 +35,16 @@ body {
     justify-content: space-between;
     padding: 0px 20px;
 }
+a{
+    all: unset;
+}
 
 .kg {
     font-family: sev;
-    font-size: 70px;
+    font-size: 80px;
     color: darkmagenta;
     cursor: pointer;
-    line-height: 0%;
+    /* line-height: 0%; */
 }
 
 .ac a {
@@ -83,6 +86,7 @@ h1 {
     width: 300px;
     padding-left: 35px;
     padding-right: 40px;
+    height: 350px;
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -155,6 +159,9 @@ button:hover i {
     align-items: center;
     justify-content: center;
 }
+.pycer > img{
+    width: 600px;
+}
 
 .certificate .pycer img {
     border-radius: none;
@@ -186,8 +193,8 @@ button:hover i {
 }
 
 .ply-h1 {
-    color: darkmagenta;
     font-size: 65px;
+    color: darkmagenta;
     margin: 0 auto;
     font-family: mont;
     line-height: 20px;
@@ -209,11 +216,11 @@ button:hover i {
 }
 
 .ply-para {
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    font-size: 20px;
     font-family: mont;
      overflow: hidden;
     padding: 20px 0px;
@@ -367,6 +374,49 @@ button:hover i {
     h1 span {
         display: block;
     }
+/* #PLAYGROUND */
+    .ply-h1 {
+        font-size: 30px;
+    }
+    .ply-para {
+        font-size: 15px;
+    }
+    @keyframes typing {
+    from {
+        width: 0
+    }
 
+    to {
+        width: 120%
+    }
+    }
+    .ply-title{
+        /* background-color: aquamarine; */
+        /* padding-right:90px; */
+        padding: 0px 10px;
+        min-height: 90vh;
+        margin-top: 0px;
+    }
+
+    .ply-h1{
+        line-height: 30px;
+    }
+    .ply-h1, .ply-para{
+        
+        text-wrap: wrap;
+    }
+    .project1{
+        padding: 0px 10px;
+    }
+    .ply-image > img{
+        width: 95vw;
+        height: fit-content;
+    }
+    .ply-projects{
+        font-size: 40px;
+    }
+    .ply-pro-des {
+    font-size: 15px;
+    }
 
 }

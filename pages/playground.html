@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="playground">
         <div class="heading">
-            <h1 class="kg">KG</h1>
+            <a href="../index.html" class="kg">KG</a>
+            <div class="mob-view menu">
+                <i class="fa-solid fa-bars mob-icon" onclick="showMenu()"></i>
+                <div id="mob-view" class="mob-view a">
+                    <!-- <a href="">Work</a> -->
+                    <a href="gayathrithirisha-resume.pdf">Resume</a>
+                    <a href="#">Play Ground</a>
+                    <a href="../pages/about.html">About</a>
+                </div>
+            </div>
             <div class="ac">
                 <!-- <a href="">Work</a> -->
                 <a href="gayathrithirisha-resume.pdf">Resume</a>
                 <a href="#">Play Ground</a>
-                <a href="#">About</a>
+                <a href="../pages/about.html">About</a>
             </div>
         </div>
         <div class="ply-middle">
@@ -39,18 +51,24 @@
                 <div class="ply-image">
                     <img src="./../pages/img/portfolio screenshot.png" height="400px" width="800px">
                 </div>
-            <div class="project2">
-                <div class="ply-projects">
-                    Gayu's Quiz App
-                </div>
-                <div class="ply-pro-des">
-                   Gayu’s Quiz App is an interactive quiz application with an initial blue background that presents multiple-choice questions to users. It provides instant feedback by changing the background color to green for correct answers and red for wrong answers.
+                <div class="project2">
+                    <div class="ply-projects">
+                        Gayu's Quiz App
+                    </div>
+                    <div class="ply-pro-des">
+                        Gayu’s Quiz App is an interactive quiz application with an initial blue background that presents
+                        multiple-choice questions to users. It provides instant feedback by changing the background
+                        color to green for correct answers and red for wrong answers.
 
+                    </div>
+                    <div class="ply-image">
+                        <img src="./../pages/img/quiz screenshot.png" height="400px" width="800px">
+                    </div>
                 </div>
-                <div class="ply-image">
-                    <img src="./../pages/img/quiz screenshot.png" height="400px" width="800px">
-                </div>
+            </div>
         </div>
+    </div>
+    <script src="../ply-script.js"></script>
 </body>
 
 </html>
