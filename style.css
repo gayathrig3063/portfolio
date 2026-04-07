@@ -263,7 +263,7 @@ button:hover i {
     display: flex;
     flex-direction: column;
     background-color: rgba(202, 222, 222, 0.625);
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
 }
 
 .ply-image {
@@ -278,9 +278,7 @@ button:hover i {
     border: 2px solid black;
 
 }
-.project2{
-    margin-top: 70px;
-}
+
 
 /* ---------------------------------------------------------------------------------------- */
 /* MOBILEVIEW */
