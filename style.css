@@ -35,11 +35,11 @@ body {
     justify-content: space-between;
     padding: 0px 20px;
 }
-a{
+.heading a{
     all: unset;
 }
 
-.kg {
+.heading .kg{
     font-family: sev;
     font-size: 80px;
     color: darkmagenta;
@@ -190,6 +190,19 @@ button:hover i {
     justify-content: center;
     margin-top: 130px;
     padding-bottom: 220px;
+}
+.click{
+    font-family: mont;
+    font-size: 20px ;
+    /* color: darkmagenta; */
+    color: #00000080;
+    
+}
+
+.click a{
+    font-family: bake ;
+    color: rgb(12, 161, 161);
+    padding: 0px 5px;
 }
 
 .ply-h1 {
